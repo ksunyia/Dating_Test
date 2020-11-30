@@ -1,0 +1,114 @@
+@media only screen and (max-width: 992px) {
+   
+    .main-menu {
+        display: flex;
+        justify-content: center;
+        margin-left: 80px;
+        font-size: 18px;
+    }
+
+    .section-logo {
+        display: flex;
+        margin: 0 auto;
+    }
+    .img-block1 {
+        display: flex;
+        margin: 0 auto;
+    }
+    .img-block2 {
+        display: none;
+    }
+    .main-section {
+        display: flex;
+        margin-top: 60px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    .text-main p {
+        font-size: 22px;
+    }
+    h2 {
+        display: none;
+    }
+    .text-about {
+        display: flex;
+        
+    }
+    .section-icon {
+        display: flex;
+    }
+    .section-categories {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .section-categories .block-img {
+        display: flex;
+        margin: 0 auto;
+    }
+    .block-categories h4 {
+        font-size: 38px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    ul li {
+        font-size: 26px;
+    }
+    .contacts {
+        display: flex;
+    }
+}
+@media only screen and (max-width: 795px){
+    
+    .main-menu {
+        display: flex;
+        margin-left: 0px;
+    }
+    .menu-list li{
+        font-size: 18px;
+    }
+    .block-categories h4{
+        font-size: 20px;
+    }
+    ul li {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 671px) {    
+.img-block1 img{
+    display: flex;
+    margin-left:40px ;
+}
+}
+@media only screen and (max-width: 595px){
+    .section-logo a{
+        display: flex;
+        margin-left:50px;
+    }
+    a.header-link{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .img-block1 img{
+        display: flex;
+        max-width: 100%;
+    }
+    .section-banner{
+        margin-bottom: 40px;
+    }
+    .main-section{    
+        margin-top: 40px}
+    h1{
+        font-size: 24px;
+    }
+    .text-main p{   
+        font-size: 19px;
+        font-weight: normal;
+        text-align: justify;
+    }
+    
+    .footer{
+        display:none;
+    }
+}

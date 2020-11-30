@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 183, 183);
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1::selection {
+    color: rgb(245, 246, 247);
+}
+
+p::selection {
+    color: rgb(245, 246, 247);
+}
+
+hr {
+    color: rgb(75, 75, 75);
+    width: 100%;
+    size: 2px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section-logo {
+    margin-top: 40px;
+    display: flex;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header-link {
+    text-decoration: none;
+    font: 'Work Sans';
+    color: rgb(85, 81, 81);
+    font-size: 22px;
+    margin: 20px;
+}
+
+.header-link:hover {
+    color: rgb(250, 249, 249);
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-banner {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+h1 {
+    color: rgb(85, 81, 81);
+}
+
+h2 {
+    text-align: center;
+}
+
+h2::selection {
+    color: rgb(250, 249, 249);
+}
+
+.text-about {
+    color: rgb(85, 81, 81);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.section-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-img img {
+    padding-left: 60px;
+}
+
+.section-img img:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+h3 a {
+    display: flex;
+    padding-left: 65px;
+    color: rgb(85, 81, 81);
+    text-decoration: none;
+}
+
+.section-text {
+    color: rgb(85, 81, 81);
+}
+
+.section-categories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+h4 {
+    color: rgb(85, 81, 81);
+    font-size: 27px;
+    text-align: center;
+}
+
+ul {
+    color: rgb(85, 81, 81);
+    font-size: 21px;
+    line-height: 2.3;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adsress {
+    margin-top: 55px;
+}
+
+.contacts-2 {
+    display: flex;
+}
+
+.contacts-3 {
+    display: flex;
+}
+
+.mail {
+    margin-top: 50px;
+}
+
+a img:hover {
+    opacity: 0.4;
+}
+/* STYLE FOR SECOND PAGE */
+.breadcrumbs {
+    display: inline-block;
+    counter-reset: flag;
+    color: black;
+    box-shadow: 0 0 2px #aaa;
+}
+
+.breadcrumbs a {
+    position: relative;
+    float: left;
+    padding-left: 58px;
+    padding-right: 10px;
+    text-decoration: none;
+    line-height: 36px;
+    color: black;
+    background: white;
+    transition: all 0.5s;
+}
+
+.breadcrumbs a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -18px;
+    z-index: 1;
+    width: 34px;
+    height: 36px;
+    background: white;
+    box-shadow: 1px 1px 0 1px #ddd;
+    border-radius: 50px 0 0 0;
+    transform: rotate(-45deg) scale(0.73);
+    transition: all 0.5s;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:hover::after,
+.breadcrumbs a.active,
+.breadcrumbs a.active::after {
+    background: #f27264;
+}
+
+.breadcrumbs a::before {
+    content: counter(flag);
+    counter-increment: flag;
+    position: absolute;
+    top: 8px;
+    left: 24px;
+    line-height: 20px;
+    box-shadow: 0 0 2px #ccc;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.breadcrumbs a:first-child {
+    padding-left: 46px;
+}
+
+.breadcrumbs a:first-child::before {
+    left: 14px;
+}
+.block-flex{
+    display: flex;
+    text-align: center;
+}
